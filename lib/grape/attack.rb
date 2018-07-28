@@ -8,6 +8,7 @@ require 'grape/attack/configurable'
 require 'grape/attack/extension'
 require 'grape/attack/exceptions'
 require 'grape/attack/throttle'
+require 'grape/attack/whitelist'
 
 module Grape
   module Attack

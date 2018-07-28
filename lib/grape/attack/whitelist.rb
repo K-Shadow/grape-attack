@@ -6,7 +6,7 @@ module Grape
         request = ::Grape::Attack::Request.new(env)
         fail ::Grape::Attack::NotWhitelistedError.new("IP not whitelisted for: #{request.client_identifier}.")
 
-        #@app_response
+        @app_response
       end
 
     end

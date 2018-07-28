@@ -7,6 +7,11 @@ module Grape
         options
       end
 
+      def whitelist(options = {})
+        route_setting(:whitelist, options)
+        options
+      end
+
       ::Grape::API.extend self
 
     end
